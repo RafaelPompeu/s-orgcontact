@@ -9,15 +9,7 @@ import google_auth_oauthlib.flow as gauthof
 import googleapiclient.discovery as gacd
 
 
-config = {
-    "apiKey": "AIzaSyA7RHMUIk16HPR8G2jRccj6orMqwaMeE0A",
-    "authDomain": "fir-orgcontact.firebaseapp.com",
-    "databaseURL": "https://s-orgcontact-default-rtdb.firebaseio.com",
-    "projectId": "s-orgcontact",
-    "storageBucket": "s-orgcontact.appspot.com",
-    "messagingSenderId": "877476976150",
-    "appId": "1:877476976150:web:1a5069417db18e5f720737"
-}
+config = {}
 
 
 firebase = pyrebase.initialize_app(config)
